@@ -1,4 +1,4 @@
-<?php 
+<?php  /*
 
 function load_stylesheets(){
     wp_register_style('stylesheet', get_template_directory_uri(). '/style.css', '', 1, 'all');
@@ -57,5 +57,20 @@ function rt_register_navwalker(){
     require_once get_template_directory(). '/util/class-wp-bootstrap-navwalker.php';
 }
 add_action( 'after_setup_theme', 'rt_register_navwalker');
+
+*/?>
+
+<?php
+
+    if(! isset($content_width)){
+        $content_width = 660;
+    }
+
+    function themwp_setup(){
+        add_theme_support('automatic-feed-links');
+        add_theme_support('title-tag');
+    }
+
+    add_action('after_setup_theme', 'themwp_setup');
 
 ?>
