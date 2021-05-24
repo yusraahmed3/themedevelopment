@@ -7,13 +7,7 @@ if(have_posts())
     while(have_posts())
     {
         the_post();
-        ?>
-        <div class="container">
-        <a href="<?php the_permalink()?>"><?php the_title()?></a>
-        <?php
-        the_excerpt();?>
-        </div>
-        <?php
+        get_template_part('template_parts/content', 'full');
     }
 }
 

@@ -1,6 +1,6 @@
 /* 
 
-Theme Name: Erza
+Theme Name: Theme Dev
 Version: 1.0
 Theme URI: https://erza.com
 Author: Yusra Ahmed
@@ -13,3 +13,7 @@ Text Domain: erza
 
 
 */
+
+body {
+    background-color: black;
+}
