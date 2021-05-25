@@ -40,4 +40,14 @@
 
     add_filter('excerpt_more', 'new_excerpt_text');
 
+    function featureText(){
+        if( is_front_page()){
+            _e("FULLY RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS");
+        }elseif(is_home()){
+            _e("SPA OFFICIAL BLOG");
+        }else{
+            _e("FULLY RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS");
+        }
+    }
+
 ?>

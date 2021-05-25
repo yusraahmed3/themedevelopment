@@ -35,7 +35,7 @@
             <div class="row position-relative d-flex justify-content-center align-items-center text-center">
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/lake.jpg" alt="lake background " class="header_img">
                 <div class="position-absolute feature-bg">
-                    <p class="feature-text">FULLY RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS</p>
+                    <p class="feature-text"><?php featureText(); ?></p>
                 </div>
             </div>
         </section>

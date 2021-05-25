@@ -8,16 +8,13 @@
                 <div class="py-3">
                     <h4 class="font-italic">Archives</h4>
                     <ol class="list-unstyled mb-0">
-                        <li><a href="">June 2019</a></li>
-                        <li><a href="">Oct 2019</a></li>
-                        <li><a href="">May 2019</a></li>
+                        <?php wp_get_archives();?>
                     </ol>
                 </div>
                 <div class="py-3">
                     <h4 class="font-italic">Categories</h4>
                     <ol class="list-unstyledmb-0">
-                        <li><a href="">News</a></li>
-                        <li><a href="">Offers</a></li>
+                        <?php wp_list_categories('title_li=');?>
                     </ol>
                 </div>
                 <div class="py-3">
