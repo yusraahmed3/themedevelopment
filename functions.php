@@ -11,6 +11,7 @@
         add_theme_support('automatic-feed-links');
         add_theme_support('title-tag');
         add_theme_support('post-thumbnails');
+        add_theme_support( 'woocommerce' );
         require_once get_template_directory(). '/util/class-wp-bootstrap-navwalker.php';
         register_nav_menus( array(
             'primary' => __('Main header menu', 'erza'),
@@ -48,11 +49,11 @@
 
     function featureText(){
         if( is_front_page()){
-            esc_html_e("FULLY RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS", 'erza');
+            esc_html_e("FULLY RESPONSIVE <br> PREMIUM COSMETICS STORE THEME <br> FOR WORDPRESS", 'erza');
         }elseif(is_home() || is_single()){
-            _e("SPA OFFICIAL BLOG", 'erza');
+            _e("VELVET OFFICIAL BLOG", 'erza');
         }elseif(is_search()){
-            _e("SPA OFFICIAL BLOG", 'erza');
+            _e("VELVET OFFICIAL BLOG", 'erza');
             _e("<br>");
             printf(__('Search results for: %s', 'erza'), get_search_query());
         }elseif( is_404()){
@@ -60,7 +61,7 @@
             <em> Let's get back on track</em>");
         }
         else{
-            _e("FULLY RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS");
+            _e("FULLY RESPONSIVE <br> PREMIUM COSMETICS STORE THEME <br> FOR WORDPRESS");
         }
     }
 
@@ -87,6 +88,8 @@
 
     add_filter('nav_menu_css_class','add_footer_menu_class', 10, 3);
 
+
+
     $args = array(
         'width' => 2600,
         'height' => 650,
@@ -106,4 +109,6 @@
                 'thumbnail_url' => get_template_directory_uri() . '/assets/images/lake2.jpg', 
                 'description' => __('Lake 2') ),
             ));
+
+
 ?>

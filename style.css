@@ -31,6 +31,7 @@ img {
 
 .header_img {
     min-height: 25vh;
+    min-width: 25vh;
 }
 
 .card {
@@ -63,11 +64,29 @@ img.wp-post-image {
     width: 75%;
 }
 
+h1 {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.woocommerce .woocommerce-result-count {
+    margin: 0 2.5em 2em;
+}
+
+.woocommerce .woocommerce-ordering select {
+    margin-right: 2em;
+}
+
+.woocommerce .products ul,
+.woocommerce ul.products {
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .feature-bg {
         width: 60vw;
     }
-    .price {
+    .themeprice {
         position: absolute;
         background: rgba(175, 169, 169, 0.6);
         height: 80px;

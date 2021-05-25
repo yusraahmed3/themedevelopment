@@ -2,26 +2,26 @@
     <div class="container-fluid text-center py-5 ">
         <div class="row">
             <div class="col-md-6 offset-md-3">
-                <h3>Welcome to Tranquil Spa Bitches!</h3>
+                <h3>Welcome to Velvet</h3>
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/divider-purple.png" alt="divider" class="w-25"> </div>
         </div>
         <div class="row mt-4 d-flex justify-content-around">
             <div class="col-sm-3">
-                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/makeup.jpg" alt="makeup" class="card-img-top rounded-circle">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/makeupc.jpg" alt="makeup" class="card-img-top rounded-circle">
                 <div class="card-body">
-                    <p class="card-text">Hair &amp; Makeup</p>
+                    <p class="card-text">Makeup</p>
                 </div>
             </div>
             <div class="col-sm-3">
-                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/candles.jpg" alt="candles" class="card-img-top rounded-circle">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/maskc.jpg" alt="candles" class="card-img-top rounded-circle">
                 <div class="card-body">
-                    <p class="card-text">Spa facilities</p>
+                    <p class="card-text"> Masks</p>
                 </div>
             </div>
             <div class="col-sm-3">
-                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/retreat.jpg" alt="retreat" class="card-img-top rounded-circle">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/perf.png" alt="retreat" class="card-img-top rounded-circle">
                 <div class="card-body">
-                    <p class="card-text">Take a tour</p>
+                    <p class="card-text">Perfumes</p>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
     <div class="container-fluid text-center bg-dark py-5">
         <div class="row">
             <div class="col-md-6 offset-md-3">
-                <h3 class="text-light">Latest Spa Offers</h3>
+                <h3 class="text-light">Latest Velvet Offers</h3>
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/divider-silver.png" alt="divider" class="pb-4 w-25">
             </div>
 
@@ -40,51 +40,57 @@
             <div class="col-sm-4">
                 <div class="card">
                     <h4 class="card-header py-5">
-                        Family swim package<span class="font-weight-bold price">$60</span>
+                        Buy two makeup products and get one bronzer free
+                        <!-- Get One<span class="font-weight-bold themeprice">$60</span> -->
                     </h4>
                     <div class="card-body">
                         <blockquote class="blockqoute mb-0">
-                            <p>Our most popular swim package, great value for families or groups up to 12 people</p>
+                            <!-- <p>Our most popular swim package, great value for families or groups up to 12 people</p> -->
+                            <p>Lorem ipsum dolor sit amet,  Nesciunt eaque ipsam quae doloribus saepe a excepturi voluptas laborum voluptatibus asperiores dolores illo aliquid deserunt sunt, quasi non molestiae, eligendi corporis. </p>
                         </blockquote>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item font-italic">Up to 12 people</li>
-                        <li class="list-group-item font-italic">Private Session</li>
-                        <li class="list-group-item font-italic">Swim lessons also available</li>
+                        <li class="list-group-item font-italic">Any makeup product you want</li>
+                        <li class="list-group-item font-italic">Fenty Bronzer</li>
+                        <li class="list-group-item font-italic">Limited time offer</li>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="card">
                     <h4 class="card-header py-5">
-                        For the bride<span class="font-weight-bold price">$40</span>
+                        <!-- For the bride<span class="font-weight-bold themeprice">$40</span> -->
+                        Get a free sample face mask
                     </h4>
                     <div class="card-body">
                         <blockquote class="blockqoute mb-0">
-                            <p>Our wedding packages are perfect for your big day. We can cater for groups large or small</p>
+                            <!-- <p>Our wedding packages are perfect for your big day. We can cater for groups large or small</p> -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae quaerat quasi corrupti quae aut. Porro id, corrupti possimus eius incidunt facilis. Rerum architecto cum praesentium sit eius, error odio?</p>
                         </blockquote>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item font-italic">Hair &amp; Makeup</li>
-                        <li class="list-group-item font-italic">Groups of any size</li>
-                        <li class="list-group-item font-italic">Champagne &amp; coctails available</li>
+                        <li class="list-group-item font-italic">Free Felonzo Facial Mask for you to try</li>
+                        <li class="list-group-item font-italic">A whole pack of masks</li>
+                        <li class="list-group-item font-italic">Limited time offer</li>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="card">
                     <h4 class="card-header py-5">
-                        Weekend Pass<span class="font-weight-bold price">$60 </span>
+                        <!-- Weekend Pass<span class="font-weight-bold themeprice">$60 </span> -->
+                        Buy one and get one free Dior perfume
                     </h4>
                     <div class="card-body">
                         <blockquote class="blockqoute mb-0">
-                            <p>Take full advantage of all of the facilities we have to offer with our unlimited weeked pass </p>
+                            <!-- <p>Take full advantage of all of the facilities we have to offer with our unlimited weeked pass </p> -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusamus temporibus facilis harum neque debitis architecto quo, sint officia mollitia corporis optio molestias doloremque repellendus quisquam hic eum asperiores deserunt?</p>
                         </blockquote>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item font-italic">Pool &amp; sauna</li>
-                        <li class="list-group-item font-italic">Full use of our gym</li>
-                        <li class="list-group-item font-italic">Includes 2 treatments per person</li>
+                        <li class="list-group-item font-italic">Buy any one of latest perfume collection and get one free Dior perfume</li>
+                        <li class="list-group-item font-italic">Brands Available</li>
+                        <li class="list-group-item font-italic">Limited time offer</li>
                     </ul>
                 </div>
             </div>
@@ -120,46 +126,46 @@
         </div>
         <div class="row my-4">
             <div class="col-sm-8">
-                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/massage.jpg" alt="massage">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/makeup2.jpg" alt="massage">
             </div>
             <div class="col-sm-4">
-                <h4 class="title text-center">Massages</h4>
+                <h4 class="title text-center">Make Up</h4>
                 <ul class="list-group list-group-flush text-light">
-                    <li class="list-group-item">Massage 1<em> -$10</em></li>
-                    <li class="list-group-item">Massage 2<em> -$10</em></li>
-                    <li class="list-group-item">Massage 3<em> -$10</em></li>
-                    <li class="list-group-item">Massage 4<em> -$10</em></li>
-                    <li class="list-group-item">Massage 5<em> -$10</em></li>
+                    <li class="list-group-item">Makeup product 1<em> -$10</em></li>
+                    <li class="list-group-item">Makeup product 2<em> -$10</em></li>
+                    <li class="list-group-item">Makeup product 3<em> -$10</em></li>
+                    <li class="list-group-item">Makeup product 4<em> -$10</em></li>
+                    <li class="list-group-item">Makeup product 5<em> -$10</em></li>
                 </ul>
             </div>
         </div>
         <div class="row my-4">
             <div class="col-sm-4">
-                <h4 class="title text-center">Facials</h4>
+                <h4 class="title text-center">Masks</h4>
                 <ul class="list-group list-group-flush text-light">
-                    <li class="list-group-item">Facial 1<em> -$10</em></li>
-                    <li class="list-group-item">Facial 2<em> -$10</em></li>
-                    <li class="list-group-item">Faical 3<em> -$10</em></li>
-                    <li class="list-group-item">Facial 4<em> -$10</em></li>
-                    <li class="list-group-item">Facial 5<em> -$10</em></li>
+                    <li class="list-group-item">Facial Mask 1<em> -$10</em></li>
+                    <li class="list-group-item">Facial Mask 2<em> -$10</em></li>
+                    <li class="list-group-item">Facial Mask 3<em> -$10</em></li>
+                    <li class="list-group-item">Facial Mask 4<em> -$10</em></li>
+                    <li class="list-group-item">Facial Mask 5<em> -$10</em></li>
                 </ul>
             </div>
             <div class="col-sm-8">
-                <img src="assets/images/facial.jpg" alt="facial">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/mask33.jpg" alt="facial">
             </div>
         </div>
         <div class="row my-4">
             <div class="col-sm-8">
-                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/cosmetics.jpg" alt="cosmetics">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/perf2.jpg" alt="cosmetics">
             </div>
             <div class="col-sm-4">
-                <h4 class="title text-center">Hair &amp; Makeup</h4>
+                <h4 class="title text-center">Perfumes</h4>
                 <ul class="list-group list-group-flush text-light">
-                    <li class="list-group-item">Hair 1<em> -$10</em></li>
-                    <li class="list-group-item">Hair 2<em> -$10</em></li>
-                    <li class="list-group-item">Hair 3<em> -$10</em></li>
-                    <li class="list-group-item">Hair 4<em> -$10</em></li>
-                    <li class="list-group-item">Hair 5<em> -$10</em></li>
+                    <li class="list-group-item">Perfume 1<em> -$10</em></li>
+                    <li class="list-group-item">Perfume 2<em> -$10</em></li>
+                    <li class="list-group-item">Perfume 3<em> -$10</em></li>
+                    <li class="list-group-item">Perfume 4<em> -$10</em></li>
+                    <li class="list-group-item">Perfume 5<em> -$10</em></li>
                 </ul>
             </div>
         </div>
