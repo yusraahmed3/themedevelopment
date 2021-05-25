@@ -20,7 +20,7 @@
         </button>
     
                 <?php
-                wp_nav_menu( array(
+                 wp_nav_menu( array(
                     'theme_location'  => 'primary',
                     'depth'           => 1, // 1 = no dropdowns, 2 = with dropdowns.
                     'container'       => 'div',
@@ -29,9 +29,7 @@
                     'menu_class'      => 'navbar-nav',
                     'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
                     'walker'          => new WP_Bootstrap_Navwalker(),
-                ) );
-                
-                ?>
+                ) ); ?>
         </nav>
         <section class="container-fluid">
             <div class="row position-relative d-flex justify-content-center align-items-center text-center">
