@@ -13,6 +13,7 @@
                         _x(
                             'One comment on &ldquo; %s &rdquo;',
                             'comments title',
+                            'erza'
                         ),
                         get_the_title()
                     );
@@ -22,7 +23,8 @@
                             '%1$s comment on &ldquo; %2$s &rdquo;',
                             '%1$s comments on &ldquo; %2$s &rdquo;',
                             $number,
-                            'comments title' 
+                            'comments title', 
+                            'erza' 
                         ),
                         number_format_i18n($number),
                         get_the_title()
@@ -43,27 +45,5 @@
                 <p><?php esc_html_e('Comments are closed for this post'); ?></p>
     </section>
     <?php endif; ?>
-<?php
-    $args = array(
-        'title_reply' => '<div class="py-3">Comment</div>',
-        'comment_field' => '<div class="form-group">
-            <label for="comment"> Comment *</label>
-            <br/>
-            <textarea id="comment" name="comment" class="form-control"></textarea>
-        </div> ',
-        'submit_button'=> '<button type="submit" class="btn btn-primary">Submit</button>',
-        'fields'=> apply_filters('comment_form_default_fields', array(
-            'author' => '<div class="form-group">
-            <label for="author">Your Name *</label>
-            <inpput id="author" name="author" type="text" class="form-control">
-            </div>',
-            'email' => '<div class="form-group">
-            <label for="email">Your Email *</label>
-            <inpput id="email" name="email" type="text" class="form-control">
-            </div>',
 
-        ))
-
-    );
-    comment_form($args);
-?>
+    <?php get_template_part('template-parts/custom-comment-form'); ?>

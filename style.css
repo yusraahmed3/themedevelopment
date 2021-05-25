@@ -59,6 +59,10 @@ a {
     padding: 0;
 }
 
+img.wp-post-image {
+    width: 75%;
+}
+
 @media screen and (min-width: 768px) {
     .feature-bg {
         width: 60vw;

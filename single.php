@@ -11,6 +11,9 @@
                         <p class="d-inline"><?php the_tags('Tagged: ', ' ~ '); ?></p>
                     </div>
                     <p>
+                    <div class="my-3">
+                            <?php the_post_thumbnail(); ?>
+                        </div>
                         <?php the_content ();?></p>
                         <?php wp_link_pages(); ?> 
                 </div>

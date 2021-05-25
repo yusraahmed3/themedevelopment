@@ -22,11 +22,20 @@
             </div>
             <div class="col-sm-4">
                 <h5>Navigation</h5>
-                <ul class="list-group">
+                <!-- <ul class="list-group">
                     <li class="list-group-item"><a href="blog.html">Blog</a></li>
                     <li class="list-group-item"><a href="contact.html">Contact Us</a></li>
                     <li class="list-group-item"><a href="privacy.html">Privacy Policy</a></li>
-                </ul>
+                </ul> -->
+                <?php
+                 wp_nav_menu( array(
+                    'theme_location'  => 'footer',
+                    'depth'           => 1, // 1 = no dropdowns, 2 = with dropdowns.
+                    'container'       => 'ul',
+                    'container_class' => 'list-group',
+                    'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                    'walker'          => new WP_Bootstrap_Navwalker(),
+                ) ); ?>
             </div>
         </div>
     </footer>
