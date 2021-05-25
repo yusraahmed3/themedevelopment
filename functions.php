@@ -43,7 +43,7 @@
     function featureText(){
         if( is_front_page()){
             _e("FULLY RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS");
-        }elseif(is_home()){
+        }elseif(is_home() || is_single()){
             _e("SPA OFFICIAL BLOG");
         }else{
             _e("FULLY RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS");
