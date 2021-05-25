@@ -21,6 +21,10 @@
 
 
     <?php endif; ?>
+
+    <?php   if( comments_open() || get_comments_number()):
+        comments_template();
+    endif;   ?>
     <nav>
                     <ul class="nav">
                         <li><?php next_post_link(); ?></li>
