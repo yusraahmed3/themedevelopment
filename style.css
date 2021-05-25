@@ -54,6 +54,11 @@ a {
     color: #212529;
 }
 
+.widget-area>div>ul {
+    list-style: none;
+    padding: 0;
+}
+
 @media screen and (min-width: 768px) {
     .feature-bg {
         width: 60vw;

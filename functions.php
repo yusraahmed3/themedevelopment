@@ -30,6 +30,10 @@
         wp_enqueue_style('custom', get_template_directory_uri().'/style.css');
 
         wp_enqueue_script('bootstrap-js', get_template_directory_uri().'/assets/js/bootstrap.min.js', array('jquery'), null, true);
+
+        if( is_singular() && comments_open() && get_option('thread_comments')){
+            wp_enqueue_script('comment-reply');
+        }
     }
 
     add_action('wp_enqueue_scripts', 'tranquil_scripts');
@@ -49,5 +53,19 @@
             _e("FULLY RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS");
         }
     }
+
+    function arphabet_widgets_init() {
+
+        register_sidebar( array(
+            'name'          => 'Home right sidebar',
+            'id'            => 'home_right_1',
+            'before_widget' => '<div class="py-3">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h4 class="font-italic">',
+            'after_title'   => '</h4>',
+        ) );
+    
+    }
+    add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 ?>

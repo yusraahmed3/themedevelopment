@@ -36,7 +36,13 @@
                 )); ?>
             </ol>
             <?php endif; ?>
+
+            <?php 
+                the_comments_navigation();
+            if(!comments_open()) :  ?>
+                <p><?php esc_html_e('Comments are closed for this post'); ?></p>
     </section>
+    <?php endif; ?>
 <?php
     $args = array(
         'title_reply' => '<div class="py-3">Comment</div>',
