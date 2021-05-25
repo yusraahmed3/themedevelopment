@@ -50,7 +50,7 @@
                         </blockquote>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item listitem font-italic text-dark">Any makeup product you want</li>
+                        <li class="list-group-item listitem font-italic text-dark">Any make_up product you want</li>
                         <li class="list-group-item listitem font-italic text-dark">Fenty Bronzer</li>
                         <li class="list-group-item listitem font-italic text-dark">Limited time offer</li>
                     </ul>
