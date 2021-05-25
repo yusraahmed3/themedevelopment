@@ -49,7 +49,15 @@
             _e("FULLY RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS");
         }elseif(is_home() || is_single()){
             _e("SPA OFFICIAL BLOG");
-        }else{
+        }elseif(is_search()){
+            _e("SPA OFFICIAL BLOG");
+            _e("<br>");
+            printf(__('Search results for: %s'), get_search_query());
+        }elseif( is_404()){
+            _e("Woops, we're a little lost <br>
+            <em> Let's get back on track</em>");
+        }
+        else{
             _e("FULLY RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS");
         }
     }
