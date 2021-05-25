@@ -3,23 +3,23 @@
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <h3>Welcome to Tranquil Spa</h3>
-                <img src="assets/images/divider-purple.png" alt="divider" class="w-25"> </div>
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/divider-purple.png" alt="divider" class="w-25"> </div>
         </div>
         <div class="row mt-4 d-flex justify-content-around">
             <div class="col-sm-3">
-                <img src="assets/images/makeup.jpg" alt="makeup" class="card-img-top rounded-circle">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/makeup.jpg" alt="makeup" class="card-img-top rounded-circle">
                 <div class="card-body">
                     <p class="card-text">Hair &amp; Makeup</p>
                 </div>
             </div>
             <div class="col-sm-3">
-                <img src="assets/images/candles.jpg" alt="candles" class="card-img-top rounded-circle">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/candles.jpg" alt="candles" class="card-img-top rounded-circle">
                 <div class="card-body">
                     <p class="card-text">Spa facilities</p>
                 </div>
             </div>
             <div class="col-sm-3">
-                <img src="assets/images/retreat.jpg" alt="retreat" class="card-img-top rounded-circle">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/retreat.jpg" alt="retreat" class="card-img-top rounded-circle">
                 <div class="card-body">
                     <p class="card-text">Take a tour</p>
                 </div>
@@ -31,7 +31,7 @@
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <h3 class="text-light">Latest Spa Offers</h3>
-                <img src="assets/images/divider-silver.png" alt="divider" class="pb-4 w-25">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/divider-silver.png" alt="divider" class="pb-4 w-25">
             </div>
 
         </div>
@@ -96,7 +96,7 @@
         <div class="row">
             <div class="col-sm-6 offset-sm-3">
                 <h3>About Us</h3>
-                <img src="assets/images/divider-purple.png" alt="divider" class="w-25">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/divider-purple.png" alt="divider" class="w-25">
             </div>
         </div>
         <div class="row mt-2">
@@ -115,12 +115,12 @@
         <div class="row">
             <div class="col-md-6 offset-md-3 text-center">
                 <h3 class="text-light">Price List</h3>
-                <img src="assets/images/divider-silver.png" alt="divider" class="pb-4 w-25">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/divider-silver.png" alt="divider" class="pb-4 w-25">
             </div>
         </div>
         <div class="row my-4">
             <div class="col-sm-8">
-                <img src="assets/images/massage.jpg" alt="massage">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/massage.jpg" alt="massage">
             </div>
             <div class="col-sm-4">
                 <h4 class="title text-center">Massages</h4>
@@ -150,7 +150,7 @@
         </div>
         <div class="row my-4">
             <div class="col-sm-8">
-                <img src="assets/images/cosmetics.jpg" alt="cosmetics">
+                <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/cosmetics.jpg" alt="cosmetics">
             </div>
             <div class="col-sm-4">
                 <h4 class="title text-center">Hair &amp; Makeup</h4>

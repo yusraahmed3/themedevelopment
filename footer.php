@@ -1,9 +1,4 @@
-<!-- <hr>  
-<p class="text-center">  
-<?php bloginfo('name')?> - Developed by Yusra @2021</p>
-<?php wp_footer();?>
-</body>
-</html> -->
+
 <footer class="container-fluid py-5">
         <div class="row">
             <div class="col-sm-4">
@@ -37,8 +32,7 @@
     </footer>
 
 
-    <script src="assets/js/bootstrap.min.js"></script>
-
+<?php wp_footer(); ?>
 </body>
 
 </html>
