@@ -9,7 +9,7 @@
     <?php the_content()?>
     <?php
     endwhile; else: ?>
-    <p><?php _e('Sorry, no pages matchehd your criteria');?></p>
+    <p><?php _e('Sorry, no pages matched your criteria', 'velvet');?></p>
     <?php
 
         

@@ -8,7 +8,7 @@
                     <h2><?php the_title();?></h2></a>
                     <p><?php echo get_the_date('F j, Y'); ?> by  <a href=""> <?php the_author();?></a></p>
                     <div class="pb-2">
-                        <p class="d-inline"><?php the_tags('Tagged: ', ' ~ '); ?></p>
+                        <p class="d-inline"><?php the_tags('Tagged: ', ' ~ ', 'velvet'); ?></p>
                     </div>
                     <p>
                     <div class="my-3">
@@ -20,7 +20,7 @@
                 <?php
                         endwhile; else: ?>
  
-    <p><?php _e('Sorry, no posts matchehd your criteria');?></p>
+    <p><?php _e('Sorry, no posts matched your criteria', 'velvet');?></p>
 
 
     <?php endif; ?>

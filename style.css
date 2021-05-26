@@ -1,13 +1,17 @@
 /* 
 
-Theme Name: Theme Dev
+Theme Name: Erza
 Version: 1.0
-Theme URI: https://erza.com
-Author: Yusra Ahmed
+Theme URI: https://Erza.com
+Author: Guardians of the galaxy
 Author URI: https://yusra.com
-Description: This is a custom wordpress theme developed for demonstration purposes.
-Tags: Blog, Scarlet, Demo, Custom, 2-column
-Text Domain: erza
+Description: This is a custom wordpress theme developed for cosmetics store
+Tags:  featured-images, rtl-language-support
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: velvet
 
 
 
@@ -80,6 +84,69 @@ h1 {
 .woocommerce .products ul,
 .woocommerce ul.products {
     text-align: center;
+}
+
+.woocommerce div.product div.images img {
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.woocommerce div.product {
+    margin: 2em;
+}
+
+.woocommerce div.product div.summary {
+    text-align: center;
+}
+
+.woocommerce div.product form.cart {
+    margin: 0 12em 2em;
+}
+
+.alignleft {
+    text-align: left
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.alignright {
+    text-align: right;
+}
+
+.wp-caption {
+    padding: 10px;
+}
+
+.wp-caption-text {
+    font-size: 0.9em;
+}
+
+.sticky {
+    padding: 10px;
+    background: #ccc;
+}
+
+.gallery-caption {
+    font-size: 0.9em;
+}
+
+.bypostauthor {
+    font-style: italic;
+}
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal;
 }
 
 @media screen and (min-width: 768px) {

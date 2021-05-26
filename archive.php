@@ -19,14 +19,14 @@
                         <?php the_excerpt ()?></p>
                         <div class="mb-3">
                             <a href="<?php the_permalink(); ?>">
-                                <?php  _e('Read more');?>
+                                <?php  _e('Read more', 'velvet');?>
                             </a>
                         </div>
                 </div>
                 <?php
                         endwhile; else: ?>
  
-    <p><?php _e('Sorry, no posts matchehd your criteria');?></p>
+    <p><?php _e('Sorry, no posts matched your criteria', 'velvet');?></p>
 
     <?php endif; ?>
     <nav>

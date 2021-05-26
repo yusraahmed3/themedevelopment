@@ -12,10 +12,11 @@
         add_theme_support('title-tag');
         add_theme_support('post-thumbnails');
         add_theme_support( 'woocommerce' );
+        add_theme_support( "custom-background", $args );
         require_once get_template_directory(). '/util/class-wp-bootstrap-navwalker.php';
         register_nav_menus( array(
-            'primary' => __('Main header menu', 'erza'),
-            'footer' => __('Footer menu', 'erza'),
+            'primary' => __('Main header menu', 'velvet'),
+            'footer' => __('Footer menu', 'velvet'),
         ));
     }
 
@@ -49,19 +50,19 @@
 
     function featureText(){
         if( is_front_page()){
-            esc_html_e("FULLY RESPONSIVE <br> PREMIUM COSMETICS STORE THEME <br> FOR WORDPRESS", 'erza');
+            esc_html_e("FULLY RESPONSIVE <br> PREMIUM COSMETICS STORE THEME <br> FOR WORDPRESS", 'velvet');
         }elseif(is_home() || is_single()){
-            _e("VELVET OFFICIAL BLOG", 'erza');
+            _e("VELVET OFFICIAL BLOG", 'velvet');
         }elseif(is_search()){
-            _e("VELVET OFFICIAL BLOG", 'erza');
-            _e("<br>");
-            printf(__('Search results for: %s', 'erza'), get_search_query());
+            _e("VELVET OFFICIAL BLOG", 'velvet');
+            _e("<br>", 'velvet');
+            printf(__('Search results for: %s', 'velvet'), get_search_query());
         }elseif( is_404()){
             _e("Woops, we're a little lost <br>
-            <em> Let's get back on track</em>");
+            <em> Let's get back on track</em>", 'velvet');
         }
         else{
-            _e("FULLY RESPONSIVE <br> PREMIUM COSMETICS STORE THEME <br> FOR WORDPRESS");
+            _e("FULLY RESPONSIVE <br> PREMIUM COSMETICS STORE THEME <br> FOR WORDPRESS", 'velvet');
         }
     }
 
@@ -89,6 +90,7 @@
     add_filter('nav_menu_css_class','add_footer_menu_class', 10, 3);
 
 
+    add_editor_style( array|string $stylesheet = 'editor-style.css' );
 
     $args = array(
         'width' => 2600,
@@ -103,11 +105,11 @@
         'lake1' => array(
             'url' => get_template_directory_uri() . '/assets/images/lake.jpg',
             'thumbnail_url' => get_template_directory_uri() . '/assets/images/lake.jpg', 
-            'description' => __('Lake 1') ),
+            'description' => __('Lake 1', 'velvet') ),
             'lake2' => array(
                 'url' => get_template_directory_uri() . '/assets/images/lake2.jpg',
                 'thumbnail_url' => get_template_directory_uri() . '/assets/images/lake2.jpg', 
-                'description' => __('Lake 2') ),
+                'description' => __('Lake 2', 'velvet') ),
             ));
 
 

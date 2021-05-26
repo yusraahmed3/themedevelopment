@@ -13,7 +13,7 @@
                         _x(
                             'One comment on &ldquo; %s &rdquo;',
                             'comments title',
-                            'erza'
+                            'velvet'
                         ),
                         get_the_title()
                     );
@@ -24,7 +24,7 @@
                             '%1$s comments on &ldquo; %2$s &rdquo;',
                             $number,
                             'comments title', 
-                            'erza' 
+                            'velvet' 
                         ),
                         number_format_i18n($number),
                         get_the_title()
@@ -42,7 +42,7 @@
             <?php 
                 the_comments_navigation();
             if(!comments_open()) :  ?>
-                <p><?php esc_html_e('Comments are closed for this post'); ?></p>
+                <p><?php esc_html_e('Comments are closed for this post', 'velvet'); ?></p>
     </section>
     <?php endif; ?>
 
