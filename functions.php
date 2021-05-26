@@ -23,12 +23,7 @@
     add_action('after_setup_theme', 'themwp_setup');
 
 
-
-    
-    function tranquil_scripts(){
-
-        // wp_register_style('stylesheet', get_template_directory_uri(). '/style.css', '', 1, 'all');
-        // wp_enqueue_style('stylesheet');
+    function  erza_scripts(){
 
         wp_enqueue_style('bootsrtap-core', get_template_directory_uri().'/assets/css/bootstrap.min.css');
         wp_enqueue_style('custom', get_template_directory_uri().'/style.css');
@@ -39,8 +34,9 @@
             wp_enqueue_script('comment-reply');
         }
     }
+    add_action('wp_enqueue_scripts', 'erza_scripts');
 
-    add_action('wp_enqueue_scripts', 'tranquil_scripts');
+
 
     function new_excerpt_text(){
         return '...';
@@ -48,13 +44,17 @@
 
     add_filter('excerpt_more', 'new_excerpt_text');
 
+
+
     function featureText(){
         if( is_front_page()){
-            esc_html_e("FULLY RESPONSIVE <br> PREMIUM COSMETICS STORE THEME <br> FOR WORDPRESS", 'velvet');
+            _e("FULLY RESPONSIVE <br>
+             PREMIUM COSMETICS STORE THEME <br>
+             FOR WORDPRESS", 'velvet');
         }elseif(is_home() || is_single()){
-            _e("VELVET OFFICIAL BLOG", 'velvet');
+            _e("ERZA OFFICIAL BLOG", 'velvet');
         }elseif(is_search()){
-            _e("VELVET OFFICIAL BLOG", 'velvet');
+            _e("ERZA OFFICIAL BLOG", 'velvet');
             _e("<br>", 'velvet');
             printf(__('Search results for: %s', 'velvet'), get_search_query());
         }elseif( is_404()){
@@ -65,6 +65,8 @@
             _e("FULLY RESPONSIVE <br> PREMIUM COSMETICS STORE THEME <br> FOR WORDPRESS", 'velvet');
         }
     }
+
+
 
     function arphabet_widgets_init() {
 
@@ -80,6 +82,11 @@
     }
     add_action( 'widgets_init', 'arphabet_widgets_init' );
 
+
+    add_editor_style($stylesheet = 'editor-style.css' );
+
+
+
     function add_footer_menu_class($classes, $item, $args){
         if($args->theme_location == 'footer'){
             $classes[] = 'list-group-item';
@@ -90,27 +97,28 @@
     add_filter('nav_menu_css_class','add_footer_menu_class', 10, 3);
 
 
-    add_editor_style( array|string $stylesheet = 'editor-style.css' );
-
-    $args = array(
-        'width' => 2600,
-        'height' => 650,
-        'default-image' => get_template_directory_uri() . '/assets/images/lake.jpg',
-        'uploads' => true
+    $headerimage = array(
+        'default-image'          => get_template_directory_uri() . '/assets/images/back6.jpg',
+        'width'                  => 1946,
+        'height'                 => 200,
+        'flex-height'            => true,
+        'flex-width'             => true,
+        'uploads'                => true,
+        'random-default'         => false,
+        'header-text'            => true,
     );
 
-    add_theme_support('custom-header', $args);
+    add_theme_support('custom-header', $headerimage);
 
-    register_default_headers(array(
-        'lake1' => array(
-            'url' => get_template_directory_uri() . '/assets/images/lake.jpg',
-            'thumbnail_url' => get_template_directory_uri() . '/assets/images/lake.jpg', 
-            'description' => __('Lake 1', 'velvet') ),
-            'lake2' => array(
-                'url' => get_template_directory_uri() . '/assets/images/lake2.jpg',
-                'thumbnail_url' => get_template_directory_uri() . '/assets/images/lake2.jpg', 
-                'description' => __('Lake 2', 'velvet') ),
-            ));
+    register_default_headers( array(
+        'default-image' => array(
+            'url'           => get_template_directory_uri() . '/assets/images/lake.jpg',
+            'thumbnail_url' => get_template_directory_uri() . '/assets/images/lake.jpg',
+            'description'   => __( 'Lake 1', 'velvet' )
+        ),
+
+    ) );
+
 
 
 ?>

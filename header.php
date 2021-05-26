@@ -14,7 +14,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="<?php echo esc_url(home_url());?>"><?php echo get_bloginfo('name');?></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
               <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@
         </nav>
         <section class="container-fluid">
             <div class="row position-relative d-flex justify-content-center align-items-center text-center">
-                <img src="<?php header_image();?>" alt="lake background " class="header_img">
+                <img  src="<?php  header_image(); ?>" alt="makeup girl background " class="img-fluid logo">
                 <div class="position-absolute feature-bg">
                     <p class="feature-text"><?php featureText(); ?></p>
                 </div>

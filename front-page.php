@@ -1,36 +1,36 @@
 <?php get_header() ?>
-    <div class="container-fluid text-center py-5 ">
+    <div class="container-fluid text-center bg-dark py-5 ">
         <div class="row">
             <div class="col-md-6 offset-md-3">
-                <h3>Welcome to Velvet</h3>
+                <h3 class="text-light">Welcome to Erza</h3>
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/divider-purple.png" alt="divider" class="w-25"> </div>
         </div>
         <div class="row mt-4 d-flex justify-content-around">
             <div class="col-sm-3">
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/makeupc.jpg" alt="makeup" class="card-img-top rounded-circle">
                 <div class="card-body">
-                    <p class="card-text">Makeup</p>
+                    <p class="card-text text-light">Makeup</p>
                 </div>
             </div>
             <div class="col-sm-3">
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/maskc.jpg" alt="candles" class="card-img-top rounded-circle">
                 <div class="card-body">
-                    <p class="card-text"> Masks</p>
+                    <p class="card-text text-light"> Masks</p>
                 </div>
             </div>
             <div class="col-sm-3">
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/perf.png" alt="retreat" class="card-img-top rounded-circle">
                 <div class="card-body">
-                    <p class="card-text">Perfumes</p>
+                    <p class="card-text text-light">Perfumes</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid text-center bg-dark py-5">
+    <div class="container-fluid text-center py-5">
         <div class="row">
             <div class="col-md-6 offset-md-3">
-                <h3 class="text-light">Latest Velvet Offers</h3>
+                <h3 class="text-dark">Latest Erza Offers</h3>
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/divider-silver.png" alt="divider" class="pb-4 w-25">
             </div>
 
@@ -50,9 +50,9 @@
                         </blockquote>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item font-italic">Any makeup product you want</li>
-                        <li class="list-group-item font-italic">Fenty Bronzer</li>
-                        <li class="list-group-item font-italic">Limited time offer</li>
+                        <li class="list-group-item listitem font-italic text-dark">Any makeup product you want</li>
+                        <li class="list-group-item listitem font-italic text-dark">Fenty Bronzer</li>
+                        <li class="list-group-item listitem font-italic text-dark">Limited time offer</li>
                     </ul>
                 </div>
             </div>
@@ -69,9 +69,9 @@
                         </blockquote>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item font-italic">Free Felonzo Facial Mask for you to try</li>
-                        <li class="list-group-item font-italic">A whole pack of masks</li>
-                        <li class="list-group-item font-italic">Limited time offer</li>
+                        <li class="list-group-item listitem font-italic text-dark">Free Felonzo Facial Mask for you to try</li>
+                        <li class="list-group-item listitem font-italic text-dark">A whole pack of masks</li>
+                        <li class="list-group-item listitem font-italic text-dark">Limited time offer</li>
                     </ul>
                 </div>
             </div>
@@ -84,13 +84,13 @@
                     <div class="card-body">
                         <blockquote class="blockqoute mb-0">
                             <!-- <p>Take full advantage of all of the facilities we have to offer with our unlimited weeked pass </p> -->
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusamus temporibus facilis harum neque debitis architecto quo, sint officia mollitia corporis optio molestias doloremque repellendus quisquam hic eum asperiores deserunt?</p>
+                            <p>Lorem ipsum dolor sit amet, Nesciunt eaque ipsam quae doloribus saepe a excepturi voluptas laborum voluptatibus asperiores dolores illo aliquid deserunt sunt, quasi non molestiae, eligendi corporis.</p>
                         </blockquote>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item font-italic">Buy any one of latest perfume collection and get one free Dior perfume</li>
-                        <li class="list-group-item font-italic">Brands Available</li>
-                        <li class="list-group-item font-italic">Limited time offer</li>
+                        <li class="list-group-item font-italic text-dark">Get a free Dior perfume</li>
+                        <li class="list-group-item font-italic text-dark">Brands Available</li>
+                        <li class="list-group-item font-italic text-dark">Limited time offer</li>
                     </ul>
                 </div>
             </div>
@@ -98,16 +98,16 @@
         </div>
     </div>
 
-    <div class="container-fluid py-5 text-center bg-light">
+    <div class="container-fluid py-5 text-center bg-dark">
         <div class="row">
             <div class="col-sm-6 offset-sm-3">
-                <h3>About Us</h3>
+                <h3 class="text-light">About Us</h3>
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/divider-purple.png" alt="divider" class="w-25">
             </div>
         </div>
         <div class="row mt-2">
             <div class="col">
-                <p class="text-center">
+                <p class="text-center text-light">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sed doloremque corrupti consequuntur optio mollitia excepturi quibusdam labore accusantium perspiciatis sequi molestiae exercitationem eius nostrum dicta necessitatibus, ipsum esse ad. Lorem
                     ipsum, dolor sit amet consectetur adipisicing elit. Sed culpa facilis quidem cum quae, illum similique voluptate voluptas ipsa eum nobis, veritatis adipisci nisi corporis minus sapiente est eaque velit? Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Est itaque fugiat quam minima nostrum reprehenderit reiciendis enim aperiam? Aliquid autem maxime inventore cupiditate eveniet harum voluptatum illum similique impedit mollitia. Lorem ipsum dolor sit,
@@ -117,10 +117,10 @@
         </div>
     </div>
 
-    <div class="container-fluid py-5 bg-dark">
+    <div class="container-fluid py-5">
         <div class="row">
             <div class="col-md-6 offset-md-3 text-center">
-                <h3 class="text-light">Price List</h3>
+                <h3 class="text-dark">Price List</h3>
                 <img src="<?php echo esc_url(get_template_directory_uri());?>/assets/images/divider-silver.png" alt="divider" class="pb-4 w-25">
             </div>
         </div>
@@ -130,7 +130,7 @@
             </div>
             <div class="col-sm-4">
                 <h4 class="title text-center">Make Up</h4>
-                <ul class="list-group list-group-flush text-light">
+                <ul class="list-group list-group-flush text-dark">
                     <li class="list-group-item">Makeup product 1<em> -$10</em></li>
                     <li class="list-group-item">Makeup product 2<em> -$10</em></li>
                     <li class="list-group-item">Makeup product 3<em> -$10</em></li>
@@ -142,7 +142,7 @@
         <div class="row my-4">
             <div class="col-sm-4">
                 <h4 class="title text-center">Masks</h4>
-                <ul class="list-group list-group-flush text-light">
+                <ul class="list-group list-group-flush text-dark">
                     <li class="list-group-item">Facial Mask 1<em> -$10</em></li>
                     <li class="list-group-item">Facial Mask 2<em> -$10</em></li>
                     <li class="list-group-item">Facial Mask 3<em> -$10</em></li>
@@ -160,7 +160,7 @@
             </div>
             <div class="col-sm-4">
                 <h4 class="title text-center">Perfumes</h4>
-                <ul class="list-group list-group-flush text-light">
+                <ul class="list-group list-group-flush text-dark">
                     <li class="list-group-item">Perfume 1<em> -$10</em></li>
                     <li class="list-group-item">Perfume 2<em> -$10</em></li>
                     <li class="list-group-item">Perfume 3<em> -$10</em></li>

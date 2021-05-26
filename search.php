@@ -18,7 +18,7 @@
                         <?php the_excerpt ()?></p>
                         <div class="mb-3">
                             <a href="<?php the_permalink(); ?>">
-                                <?php  _e('Read more');?>
+                                <?php  _e('Read more', 'velvet');?>
                             </a>
                         </div>
                 </div>

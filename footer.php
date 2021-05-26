@@ -1,17 +1,15 @@
 
-
-<hr>
-<footer class="container-fluid py-5">
+<footer class="container-fluid bg-dark py-5">
         <div class="row">
             <div class="col-sm-4">
-                <h5>Stay connected:</h5>
+                <h5 class="text-light">Stay connected:</h5>
                 <form>
-                    <div class="form-row form-group">
+                    <div class="form-row form-group form2">
                         <div class="col-md-8">
                             <input type="email" class="form-control" placeholder="Email Address">
                         </div>
                         <div class="col-md-4">
-                            <button type="submit" class="btn btn-primary">Sign Up
+                            <button type="submit" class="btn btn-primary text-light">Sign Up
                         
                             </button>
                         </div>
@@ -19,16 +17,11 @@
                 </form>
             </div>
             <div class="col-sm-4">
-                <h5>Our setting:</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptates, dolorem tempora inventore veritatis ut magnam dolor nulla quos, recusandae labore quibusdam quae sunt doloremque error praesentium numquam? Ab, tempora?</p>
+                <h5 class="text-light">Our setting:</h5>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptates, dolorem tempora inventore veritatis ut magnam dolor nulla quos, recusandae labore quibusdam quae sunt doloremque error praesentium numquam? Ab, tempora?</p>
             </div>
             <div class="col-sm-4">
-                <h5>Navigation</h5>
-                <!-- <ul class="list-group">
-                    <li class="list-group-item"><a href="blog.html">Blog</a></li>
-                    <li class="list-group-item"><a href="contact.html">Contact Us</a></li>
-                    <li class="list-group-item"><a href="privacy.html">Privacy Policy</a></li>
-                </ul> -->
+                <h5 class="text-light">Navigation</h5>
                 <?php
                  wp_nav_menu( array(
                     'theme_location'  => 'footer',
@@ -40,6 +33,7 @@
                 ) ); ?>
             </div>
         </div>
+
     </footer>
 
 

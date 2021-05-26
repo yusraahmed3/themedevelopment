@@ -4,7 +4,7 @@ Theme Name: Erza
 Version: 1.0
 Theme URI: https://Erza.com
 Author: Guardians of the galaxy
-Author URI: https://yusra.com
+Author URI: https://Guardians of the galaxy.com
 Description: This is a custom wordpress theme developed for cosmetics store
 Tags:  featured-images, rtl-language-support
 Tested up to: 5.4
@@ -12,9 +12,6 @@ Requires PHP: 7.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: velvet
-
-
-
 
 */
 
@@ -24,13 +21,21 @@ img {
 
 .feature-bg {
     background: rgba(255, 255, 255, 0.3);
-    width: 100vw;
+    width: 60vw;
     border-radius: 10px;
 }
 
 .feature-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 4rem;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.navbar-brand {
+    margin-left: 50px;
 }
 
 .header_img {
@@ -46,6 +51,16 @@ img {
     font-size: 1.2rem;
 }
 
+.listitem {
+    color: black;
+}
+
+.cusfoot {
+    height: 50px;
+    width: 100%;
+    background: rgb(19, 18, 18);
+}
+
 .title {
     color: goldenrod;
 }
@@ -53,10 +68,23 @@ img {
 .list-group-item {
     background: none;
     font-size: 1.1em;
+    color: black;
 }
 
 a {
     color: #212529;
+}
+
+.form-group {
+    margin: 0 5em 0;
+}
+
+.form2 {
+    margin: 0 1em 0;
+}
+
+.form-control {
+    margin-bottom: 1.5em;
 }
 
 .widget-area>div>ul {
@@ -103,6 +131,14 @@ h1 {
     margin: 0 12em 2em;
 }
 
+.woocommerce-cart-form {
+    margin: 1.5em 1em 0;
+}
+
+.cart_totals {
+    margin: 1em 2em 0;
+}
+
 .alignleft {
     text-align: left
 }
@@ -134,6 +170,10 @@ h1 {
 
 .bypostauthor {
     font-style: italic;
+}
+
+.woocommerce #header-featured-image {
+    display: none;
 }
 
 .screen-reader-text {

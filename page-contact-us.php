@@ -12,8 +12,8 @@
         <br>
         <div class="row">
             <div class="col-sm-12">
-                <form class="text-left">
-                    <div class="form-group">
+                <form class="text-center">
+                    <div class="form-group text-left">
                         <label for="name">Your Name</label>
                         <input type="text" class="form-control" id="name" placeholder="Enter your name...">
                     </div>
