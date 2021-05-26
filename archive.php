@@ -19,7 +19,7 @@
                         <?php the_excerpt ()?></p>
                         <div class="mb-3">
                             <a href="<?php the_permalink(); ?>">
-                                <?php  _e('Read more', 'velvet');?>
+                                <?php  _e('read more', 'velvet');?>
                             </a>
                         </div>
                 </div>

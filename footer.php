@@ -18,7 +18,7 @@
             </div>
             <div class="col-sm-4">
                 <h5 class="text-light">Our setting:</h5>
-                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptates, dolorem tempora inventore veritatis ut magnam dolor nulla quos, recusandae labore quibusdam quae sunt doloremque error praesentium numquam? Ab, tempora?</p>
+                <p class="text-light">Lorem ipsum dolor this is sdjang consectetur adipisicing elit. Omnis, voluptates, dolorem tempora inventore veritatis ut magnam dolor nulla quos, recusandae labore quibusdam quae sunt doloremque error praesentium numquam? Ab, tempora?</p>
             </div>
             <div class="col-sm-4">
                 <h5 class="text-light">Navigation</h5>
